@@ -1,13 +1,17 @@
 Algoritmo "semnome"
-// Autor:  Thiago Alves da Silva
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : Antonio Carlos Nicolodi
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    rendaMensal, emprestimo, maxEmprestimo, maxPrestacao, prestacao: real
    numeroPrestacao: inteiro
 
 Inicio
-   // solicito as informaÁıes ao usu·rio
+   // solicito as informa√ß√µes ao usu√°rio
 
    escreva ("renda mensal: ")
    leia (rendaMensal)
@@ -17,22 +21,22 @@ Inicio
    leia (emprestimo)
    limpatela
 
-   escreva ("numero de prestaÁıes:")
+   escreva ("numero de presta√ß√µes:")
    leia (numeroPrestacao)
    limpatela
 
-   // calculo a prestaÁ„o e emprestimo
+   // calculo a presta√ß√£o e emprestimo
    maxEmprestimo <- rendaMensal * 10
    maxPrestacao <- rendaMensal - (rendaMensal * 0.03)
    prestacao <- emprestimo / numeroPrestacao
 
    // mostro os resultados ao usuario
-   escreval ("valor do emprÈstimo: ", emprestimo)
-   escreval ("prestaÁıes: ", numeroPrestacao)
+   escreval ("valor do empr√©stimo: ", emprestimo)
+   escreval ("presta√ß√µes: ", numeroPrestacao)
    se ((maxEmprestimo <= emprestimo) e  (prestacao <= maxPrestacao)) entao
       escreval ("CONCEDIDO")
    senao
-      escreval ("N√O CONCEDIDO")
+      escreval ("N√ÉO CONCEDIDO")
    fimse
 
 
