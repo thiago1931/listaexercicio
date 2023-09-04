@@ -1,15 +1,19 @@
 Algoritmo "semnome"
-// Autor: Thiago Alves da Silva
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : Antonio Carlos Nicolodi
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    notaum: real
    notadois: real
    media: real
 
 
 Inicio
-   // PeÁo a nota
+   // Pe√ßo a nota
    escreval ("digite a primeira nota:")
    leia (notaum)
    limpatela
@@ -18,16 +22,16 @@ Inicio
    leia (notadois)
    limpatela
 
-   // C·lculo a mÈdia
+   // C√°lculo a m√©dia
    media <- (notaum + notadois)/2
    
-   // Mostro a mÈdia e aplico a condicional
+   // Mostro a m√©dia e aplico a condicional
    escreval ("media:", media)
    se (media >= 6) entao
-      escreval ("parabÈns, aprovado!")
+      escreval ("parab√©ns, aprovado!")
    senao
       se media >= 4 entao
-         escreval("recuperaÁ„o")
+         escreval("recupera√ß√£o")
       senao
          se media < 4 entao
             escreval ("reprovado")
