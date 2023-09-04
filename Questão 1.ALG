@@ -1,8 +1,12 @@
 Algoritmo "semnome"
-// Autor: Thiago Alves da Silva
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : Antonio Carlos Nicolodi
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2023
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    A: inteiro
    B: inteiro
    C: inteiro
@@ -10,7 +14,7 @@ Var
 
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    escreval ("digite o primeiro numero:")
    leia (A)
    limpatela
